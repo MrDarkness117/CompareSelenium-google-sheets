@@ -7,6 +7,7 @@ Another (the proper) way of doing this would be something like this:
 
 ```
 import html
+import requests
 
 column1 = ['https://google.com', 'https://noone.ru', 'etc']
 column2 = ['https://some-broken-link.com', ...]
