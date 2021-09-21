@@ -5,8 +5,10 @@ I made this simple script to compare two tables in google sheets. I could do it 
 
 Another way of doing this would be something like this:
 
+```
 import html
 
 r = requests.get('https://google.com')
 
 print(html.unescape(r.text))
+```
